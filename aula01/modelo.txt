@@ -1,0 +1,20 @@
+public static void main(String[] args) {
+
+        Scanner txt = new Scanner(System.in);
+        String conf = "SIM";
+
+        while (conf.equals("SIM") || conf.equals("S")) {
+
+            
+            System.out.println(" ");
+            System.out.println(" ");
+            System.out.print("Deseja continuar (SIM/NÃO) ?: ");
+            conf = txt.nextLine();
+            conf = txt.nextLine();
+            conf = conf.toUpperCase();
+            
+        }
+
+    }
+  /*Por: Lucas Pizoni Flôres
+    3-53*/
